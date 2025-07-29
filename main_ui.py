@@ -5,7 +5,7 @@ from utils import autoclick
 from utils import logging
 
 
-#sys.stdout = logging.Logger("log.txt")
+sys.stdout = logging.Logger("log.txt")
 
 def validate_int(input):
     """验证函数，确保输入是整数"""
